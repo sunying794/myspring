@@ -10,7 +10,7 @@ public class Test {
 
     public static void main(String[] args) {
 
-        System.getProperties().put("sun.misc.ProxyGenerator.saveGeneratedFiles","true");
+//        System.getProperties().put("sun.misc.ProxyGenerator.saveGeneratedFiles","true");
         ApplicationContext context = new ClassPathXmlApplicationContext("bean.xml");
 //        TestAopAnn testAopAnn = context.getBean("testAopAnn", TestAopAnn.class);
 //        testAopAnn.test1();
