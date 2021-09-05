@@ -14,7 +14,7 @@ public class Test {
      * @param args
      */
     public static void main(String[] args) {
-
+        System.out.println("1.0.0分支合并");
 //        System.getProperties().put("sun.misc.ProxyGenerator.saveGeneratedFiles","true");
         ApplicationContext context = new ClassPathXmlApplicationContext("bean.xml");
 //        TestAopAnn testAopAnn = context.getBean("testAopAnn", TestAopAnn.class);
