@@ -8,6 +8,10 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Test {
 
 
+    /**
+     * spring启动跟踪
+     * @param args
+     */
     public static void main(String[] args) {
 
 //        System.getProperties().put("sun.misc.ProxyGenerator.saveGeneratedFiles","true");
